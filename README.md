@@ -1,38 +1,28 @@
-# Credit_Card_ML_Project
-   Project Overview
+Credit Card Default Prediction Using Machine Learning
 
-*Built a machine learning classification project to predict whether a credit card customer is likely to default on the next month's payment, using customer and repayment-history data.
-
-*Loaded and inspected the dataset using Python and Pandas; reviewed its structure, summary statistics, and data quality.
-
-*Cleaned the dataset by addressing an embedded repeated header row, checking missing values and duplicates, and examining outliers.
-
-*Performed exploratory data analysis and visualized feature relationships, including a correlation heatmap.
-
-*Prepared features and target labels, then divided the data into training and testing sets using a stratified split.
-
-*Prepared numerical and categorical features using imputation, scaling, and one-hot encoding.
-
-*Trained and evaluated Logistic Regression, Decision Tree, and Random Forest classification models.
-
-*Compared model performance using accuracy, precision, recall, and F1-score.
-
-  Tools and Technologies
-
-Python | Jupyter Notebook | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn | Machine Learning | Classification | Data Preprocessing | EDA
-
-  Results
-
-Complete these fields using the actual evaluation results from your notebook:
-
-Best-performing model: [Model name]
-
-Accuracy: [Value]
-
-Precision: [Value]
-
-Recall: [Value]
-
-F1-score: [Value]
-
-GitHub
+Technologies: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook
+- Developed a machine learning project to predict whether a customer is likely to default on credit card payments.
+- Performed data cleaning, preprocessing, and exploratory data analysis (EDA) to understand customer payment behaviour.
+- Handled missing values, duplicate records, and outliers to improve data quality.
+- Applied categorical encoding and feature scaling as part of data preprocessing.
+- Used data visualization techniques, including boxplots, count plots, and correlation heatmaps, to identify patterns and relationships.
+- Split the dataset into training and testing sets to evaluate model performance.
+- Implemented and compared three machine learning algorithms: Logistic Regression, Decision Tree Classifier, and Random Forest Classifier.
+- Evaluated model performance using accuracy, precision, recall, and F1-score.
+Project Outcome: Compared the performance of multiple classification algorithms to identify a suitable model for predicting credit card payment defaults.
+  Logistic Regression :
+           accuracy: 0.78
+           precision: 0.62
+           f1: 0.03
+           recall:0.02
+  Decision Tree :
+           accuracy: 0.73
+           precision: 0.39
+           f1: 0.40
+           recall:0.41
+  Random Forest :
+           accuracy: 0.82
+           precision: 0.64
+           f1: 0.46
+           recall:0.36
+           
