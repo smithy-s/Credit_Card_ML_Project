@@ -9,20 +9,25 @@ Technologies: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter 
 - Split the dataset into training and testing sets to evaluate model performance.
 - Implemented and compared three machine learning algorithms: Logistic Regression, Decision Tree Classifier, and Random Forest Classifier.
 - Evaluated model performance using accuracy, precision, recall, and F1-score.
-Project Outcome: Compared the performance of multiple classification algorithms to identify a suitable model for predicting credit card payment defaults.
--Logistic Regression :
-          - accuracy: 0.78
-          - precision: 0.62
-          - f1: 0.03
-          - recall:0.02
--Decision Tree :
-           - accuracy: 0.73
-           - precision: 0.39
-           - f1: 0.40
-           - recall:0.41
--Random Forest :
-           -accuracy: 0.82
-           -precision: 0.64
-           -f1: 0.46
-           -recall:0.36
-           
+
+## Model Performance and Evaluation Results
+
+The three machine learning classification algorithms were evaluated using Accuracy, Precision, Recall, and F1-score.
+
+| Machine Learning Model | Accuracy | Precision | Recall | F1-Score |
+|---|---:|---:|---:|---:|
+| Logistic Regression | 0.78 | 0.62 | 0.02 | 0.03 |
+| Decision Tree Classifier | 0.73 | 0.39 | 0.41 | 0.40 |
+| Random Forest Classifier | **0.82** | **0.64** | 0.36 | **0.46** |
+
+### Performance Comparison
+
+- **Logistic Regression:** Achieved 78% accuracy but had very low recall and F1-score.
+- **Decision Tree Classifier:** Achieved 73% accuracy with a recall of 0.41 and an F1-score of 0.40.
+- **Random Forest Classifier:** Achieved the highest accuracy (82%), precision (0.64), and F1-score (0.46) among the three models.
+
+### Conclusion
+
+Based on the evaluation results, the Random Forest Classifier performed best overall compared with Logistic Regression and Decision Tree Classifier. It achieved the highest accuracy and F1-score, making it the strongest-performing model in this project.
+
+However, its recall of 0.36 indicates that it still misses a substantial proportion of actual credit card defaults. Further tuning and class-imbalance handling could improve its ability to identify customers who are likely to default.
