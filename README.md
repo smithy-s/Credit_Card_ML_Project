@@ -10,19 +10,19 @@ Technologies: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter 
 - Implemented and compared three machine learning algorithms: Logistic Regression, Decision Tree Classifier, and Random Forest Classifier.
 - Evaluated model performance using accuracy, precision, recall, and F1-score.
 Project Outcome: Compared the performance of multiple classification algorithms to identify a suitable model for predicting credit card payment defaults.
-  Logistic Regression :
-           accuracy: 0.78
-           precision: 0.62
-           f1: 0.03
-           recall:0.02
-  Decision Tree :
-           accuracy: 0.73
-           precision: 0.39
-           f1: 0.40
-           recall:0.41
-  Random Forest :
-           accuracy: 0.82
-           precision: 0.64
-           f1: 0.46
-           recall:0.36
+-Logistic Regression :
+          - accuracy: 0.78
+          - precision: 0.62
+          - f1: 0.03
+          - recall:0.02
+-Decision Tree :
+           - accuracy: 0.73
+           - precision: 0.39
+           - f1: 0.40
+           - recall:0.41
+-Random Forest :
+           -accuracy: 0.82
+           -precision: 0.64
+           -f1: 0.46
+           -recall:0.36
            
